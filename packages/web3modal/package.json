@@ -1,6 +1,6 @@
 {
   "name": "@impersonator/web3modal",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Add Impersonator as Custom provider to web3modal",
   "author": "Apoorv Lathey <apoorvlathey.com>",
   "license": "MIT",
