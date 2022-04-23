@@ -1,0 +1,46 @@
+{
+  "name": "@impersonator/web3modal",
+  "version": "0.1.0",
+  "description": "Add Impersonator as Custom provider to web3modal",
+  "author": "Apoorv Lathey <apoorvlathey.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/apoorvlathey/impersonator-monorepo#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apoorvlathey/impersonator-monorepo"
+  },
+  "bugs": {
+    "url": "https://github.com/apoorvlathey/impersonator-monorepo/issues"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "impersonator",
+    "web3modal"
+  ],
+  "scripts": {
+    "build": "rollup -c --context this",
+    "clean": "rm -rf dist",
+    "prepare": "npm run build",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "dependencies": {
+    "@impersonator/provider": "^0.1.0"
+  },
+  "devDependencies": {
+    "@rollup/plugin-commonjs": "^21.0.3",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "rollup": "^2.70.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-typescript2": "^0.31.2",
+    "typescript": "^4.6.3"
+  }
+}

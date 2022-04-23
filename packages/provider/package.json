@@ -1,0 +1,51 @@
+{
+  "name": "@impersonator/provider",
+  "version": "0.1.0",
+  "description": "Web3 Provider with the ability to impersonate as any Address",
+  "author": "Apoorv Lathey <apoorvlathey.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/apoorvlathey/impersonator-monorepo#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/apoorvlathey/impersonator-monorepo"
+  },
+  "bugs": {
+    "url": "https://github.com/apoorvlathey/impersonator-monorepo/issues"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "keywords": [
+    "impersonator"
+  ],
+  "scripts": {
+    "build": "rollup -c --context this --exports default",
+    "clean": "rm -rf dist",
+    "prepare": "npm run build",
+    "version": "git add -A src",
+    "postversion": "git push && git push --tags"
+  },
+  "devDependencies": {
+    "@chakra-ui/react": "^1.8.8",
+    "@emotion/react": "^11.9.0",
+    "@emotion/styled": "^11.8.1",
+    "@rollup/plugin-commonjs": "^21.0.3",
+    "@rollup/plugin-node-resolve": "^13.1.3",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "ethers": "^5.6.2",
+    "framer-motion": "4.1.17",
+    "react": "^18.0.0",
+    "react-dom": "^18.0.0",
+    "rollup": "^2.70.1",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-typescript2": "^0.31.2",
+    "typescript": "^4.6.3"
+  }
+}
