@@ -1,6 +1,6 @@
 {
   "name": "@impersonator/provider",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Web3 Provider with the ability to impersonate as any Address",
   "author": "Apoorv Lathey <apoorvlathey.com>",
   "license": "MIT",
