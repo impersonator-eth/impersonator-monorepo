@@ -17,5 +17,5 @@ const web3Modal = new Web3Modal({
 });
 ```
 
-<img src=".github/ss1.png">
-<img src=".github/ss2.png">
+<img src="https://raw.githubusercontent.com/apoorvlathey/impersonator-monorepo/master/packages/web3modal/.github/ss1.png">
+<img src="https://raw.githubusercontent.com/apoorvlathey/impersonator-monorepo/master/packages/web3modal/.github/ss2.png">

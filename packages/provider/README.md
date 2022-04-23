@@ -14,4 +14,4 @@ const provider = new ImpersonatorProvider(rpc);
 await provider.init(); // Pops up Modal where the user can enter which address/ENS they want to impersonate
 ```
 
-<img src=".github/ss.png" />
+<img src="https://raw.githubusercontent.com/apoorvlathey/impersonator-monorepo/master/packages/provider/.github/ss.png" />
